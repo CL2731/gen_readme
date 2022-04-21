@@ -53,3 +53,16 @@ const questions = [
         message: "What is the email you would like to be contacted at?"
     }
 ];
+
+function writeFile(fileName, data){
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+}
+
+    function init(){
+        inquirer.prompt(questions).then((inquirerResponse) => {
+            console.log("generating readme file");
+            writeFile("README.md", generate({...inquirerResponse}));
+        });
+    }
+
+    init();
