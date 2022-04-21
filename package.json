@@ -1,0 +1,23 @@
+{
+  "name": "most-fabulous-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CL2731/gen_readme.git"
+  },
+  "author": "Caitlin Lindauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CL2731/gen_readme/issues"
+  },
+  "homepage": "https://github.com/CL2731/gen_readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "path": "^0.12.7"
+  }
+}
