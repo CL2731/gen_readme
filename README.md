@@ -1,5 +1,8 @@
 # Easy readme
 
+# License
+-MIT
+
 ### Purpose
 Make a quick README.md file from your terminal by answering all the basic questions.
 
