@@ -1,6 +1,6 @@
 # Easy readme
 
-# License
+### License
 -MIT
 
 ### Purpose
